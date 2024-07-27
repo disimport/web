@@ -1,0 +1,55 @@
+body {
+    background: rgb(159, 0, 0);
+    margin: 2px;
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.box2 {
+    background:linear-gradient(#000, transparent 90%) ;
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    background-position: top;
+    position: absolute;
+    top: 0;
+}
+
+h1 {
+    color: white;
+    border: 2px;
+    border-color: white;
+    text-align: center;
+    padding: 50px ;
+
+}
+
+.box {
+    background-color:rgb(159, 0, 0);
+    width: 100%;
+    height: 320px;
+    margin: none;
+    background-image: url(https://pbs.twimg.com/media/CUSyWZSWcAASyJd.jpg);
+    background-size: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p {
+    text-align: justify;
+    color: white;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.opaco {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+h3 {
+    padding: 20px;
+    color: white;
+}
